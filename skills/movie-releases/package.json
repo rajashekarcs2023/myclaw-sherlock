@@ -1,0 +1,28 @@
+{
+  "name": "openclaw-skill-movie-releases",
+  "version": "1.0.0",
+  "description": "Search for the latest movie releases, ratings, reviews, and detailed information from TMDB. Get email integration for automated lists.",
+  "author": "Sherlock",
+  "keywords": [
+    "movies",
+    "film",
+    "cinema",
+    "hollywood",
+    "tmdb",
+    "ratings",
+    "reviews",
+    "theater",
+    "email",
+    "automation"
+  ],
+  "openclaw": {
+    "skill": {
+      "name": "movie-releases",
+      "description": "Search for the latest movie releases, ratings, reviews, and detailed information from TMDB (The Movie Database). Get email integration for automated lists.",
+      "category": "entertainment"
+    }
+  },
+  "dependencies": {
+    "python": ">=3.7"
+  }
+}

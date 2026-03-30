@@ -1,0 +1,18 @@
+{
+  "skills": [
+    {
+      "name": "movie-releases",
+      "description": "Search for the latest movie releases, ratings, reviews, and detailed information from TMDB (The Movie Database). Includes built-in email integration to automatically send movie lists to any email address.",
+      "location": "~/.openclaw/workspace/skills/public/movie-releases",
+      "script": "scripts/movie-to-email.mjs",
+      "type": "node",
+      "version": "1.0.0",
+      "commands": [
+        "latest [region] [days]",
+        "search <query> [year]",
+        "top-rated [region]",
+        "now-playing [region]"
+      ]
+    }
+  ]
+}
